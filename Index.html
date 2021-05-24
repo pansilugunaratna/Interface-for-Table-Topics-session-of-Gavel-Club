@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="view" content="width-device-width, initial-scale-1">
+    <title>Table Topics</title>
+
+    <style>
+        body {
+            background: url("sp.png.png");
+            background-size: cover;
+        }
+        table {
+            margin: auto;
+        }
+        .Topic {
+            text-align: center;
+            font-style: italic;
+            font-size: larger;
+            background-color: maroon;
+            opacity: 0.6;
+            border-radius: 15px;
+            width: 300px;
+            border: 3px solid lightyellow;
+            padding: 50px;
+            margin: 200px;
+        }
+        #Title {
+            font-family: Elephant;
+        }
+        .Topics {
+            font-style: normal;
+            color: black;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+<h1 align="center" id="Title" style="color: wheat">Table Topics</h1>
+
+<table class="Table">
+    <div class="column">
+        <tr>
+            <td class = "Topic"><p id="T1" style="color: ghostwhite" onclick="changeText1()">Table Topic 1</p></td>
+            <td class = "Topic"><p id="T2" style="color: ghostwhite" onclick="changeText2()">Table Topic 2</p></td>
+            <td class = "Topic"><p id="T3" style="color: ghostwhite" onclick="changeText3()">Table Topic 3</p></td>
+        </tr>
+    </div>
+    <div class="column">
+        <tr>
+            <td class = "Topic"><p id="T4" style="color: ghostwhite" onclick="changeText4()">Table Topic 4</p></td>
+            <td class = "Topic"><p id="T5" style="color: ghostwhite" onclick="changeText5()">Table Topic 5</p></td>
+            <td class = "Topic"><p id="T6" style="color: ghostwhite" onclick="changeText6()">Table Topic 6</p></td>
+        </tr>
+    </div>
+</table>
+
+<script class="Topics">
+    function changeText1(){
+        document.getElementById("T1").innerHTML = "Topic 1 taken";
+        document.getElementById("T1").style.color = "black";
+    }
+    function changeText2(){
+        document.getElementById("T2").innerHTML = "Topic 2 taken";
+        document.getElementById("T2").style.color = "black";
+    }
+    function changeText3(){
+        document.getElementById("T3").innerHTML = "Topic 3 taken";
+        document.getElementById("T3").style.color = "black";
+    }
+    function changeText4(){
+        document.getElementById("T4").innerHTML = "Topic 4 taken";
+        document.getElementById("T4").style.color = "black";
+    }
+    function changeText5(){
+        document.getElementById("T5").innerHTML = "Topic 5 taken";
+        document.getElementById("T5").style.color = "black";
+    }
+    function changeText6(){
+        document.getElementById("T6").innerHTML = "Topic 6 taken";
+        document.getElementById("T6").style.color = "black";
+    }
+</script>
+
+</body>
+
+</html>
